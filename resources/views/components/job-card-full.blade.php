@@ -2,7 +2,7 @@
 
 <x-panel class="flex gap-x-6">
     <div>
-        <x-employer-logo/>
+        <x-employer-logo :employer="$job->employer" width="90"/>
     </div>
 
     <div class="flex-1 flex flex-col">
